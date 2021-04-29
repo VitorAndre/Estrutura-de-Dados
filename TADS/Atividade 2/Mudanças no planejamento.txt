@@ -1,0 +1,15 @@
+Olá professores! Seguindo sua recomendação e pensando em um jeito de fazer o programa de uma forma mais fácil, tive que fazer algumas alterações no planejamento:
+
+Antes haviam 2 entidades, agora são 4: Animal e benfeitor (já presentes), Ong e Doacao (Novas);
+
+Os comportamentos descritos nas classes Animal e Benfeitor foram passados para a classe Ong, dessa forma serão representadas em código como Struct, juntamente com a entidade Doacao;
+
+A entidade Doacao recebeu um atributo "valor da doação"
+
+A entidade Ong passou a ter os atributos total de animais e total de benfeitores, antes descritos nas classes Animal e Entidade, respectivamente. Além disso, possui uma lista de animais e uma list de benfeitores que são/serão cadastrados no sistema;
+
+Foi retirada o atributo id da Entidade Animal, por não ser necessário;
+
+Foi adicionado o atributo quantidade de doações na entidade Benfeitor;
+
+
